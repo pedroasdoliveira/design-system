@@ -1,4 +1,5 @@
 import type { Preview } from "@storybook/react";
+import { themes } from "@storybook/theming";
 
 const preview: Preview = {
   parameters: {
@@ -17,9 +18,14 @@ const preview: Preview = {
         { name: "Maroon", value: "#400" },
       ],
       // 👇 Specify which background is shown by default
-      default: "Light",
+      default: "Dark",
     },
   },
+  initialGlobals: {
+    // 👇 Set the initial background color
+    backgrounds: { value: "dark" },
+  },
+  tags: ["autodocs"],
 };
 
 export default preview;
