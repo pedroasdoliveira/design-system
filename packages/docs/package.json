@@ -5,10 +5,10 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "dev:docs": "storybook dev -p 6006",
-    "build-vite": "tsc && vite build",
+    "dev": "storybook dev -p 6006",
     "build": "storybook build",
+    "dev:vite": "vite",
+    "build-vite": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
