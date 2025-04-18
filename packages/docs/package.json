@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "polished": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -21,6 +22,7 @@
     "@design-ui/eslint-config": "*",
     "@design-ui/react": "*",
     "@design-ui/tokens": "*",
+    "@design-ui/ts-config": "*",
     "@eslint/js": "^9.22.0",
     "@storybook/addon-a11y": "^8.6.12",
     "@storybook/addon-essentials": "^8.6.12",
