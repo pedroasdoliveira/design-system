@@ -9,6 +9,7 @@ export default {
   args: {
     children: "Enviar",
   },
+  tags: ["autodocs"],
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {
